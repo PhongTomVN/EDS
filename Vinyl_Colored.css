@@ -688,7 +688,7 @@ ul.thin li {
 #searchbars {
     width: 952px;
     height: 34px;
-    padding: 8px 0;
+    padding: 8px 0 10px 0;
     background: rgba(0, 0, 0, 0.1);
     background-image: url('./images/light-on-dark/search.png');
     background-repeat: no-repeat;
@@ -738,7 +738,7 @@ ul.thin li {
 #searchbars ul li {
     display: inline;
     float: left;
-    margin: 0 15px 0 0;
+    margin: 0 12px 0 0;
     position: relative;
     list-style: none;
 }
