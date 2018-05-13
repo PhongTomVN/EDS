@@ -1,15 +1,3 @@
-/********************* RedactHaze **********************
-
-Original design: apopagasm
-Original CSS: Exanurous
-This stylesheet is derived from Gazelle Postmod.
-
-Similar ports are available on other sites under different names  (Haze, Beluga, ...)
-
-High-DPI images: Phlo
-
-*******************************************************/
-
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,bold);
 
 * {
@@ -208,12 +196,12 @@ ul.thin li {
     padding: 0 0 0 0;
 }
 #header {
-    width: 900px;
+    width: 1200px;
     margin: 0 auto 0 auto;
     padding: 0 0 0 0;
 }
 #content {
-    width: 900px;
+    width: 1200px;
     margin: 0 auto 0 auto;
     overflow: hidden;
 }
@@ -231,17 +219,17 @@ ul.thin li {
 }
 #logo {
     width: auto;
-    height: 120px;
+    height: 100px;
     z-index: 2;
-    margin-top: 10px;
-    margin-bottom: 20px
+    margin-top: 15px;
+    margin-bottom: 30px
 }
 #logo a {
     border: none;
     width: auto;
-    height: 120px;
+    height: 100px;
     background: url('https://efectodoppler.pw/static/styles/layer_cake/images/logo.png') no-repeat top left;
-    background-size: auto 120px;
+    background-size: auto 100px;
     display: block;
     margin-left: 0;
 }
@@ -370,6 +358,16 @@ ul.thin li {
     color: #fff !important;
 }
 
+
+
+
+
+
+
+
+
+
+
 #nav_staff {
     position: absolute;
     display: inline-block;
@@ -380,9 +378,61 @@ ul.thin li {
     height: 42px;
     color: transparent;
  
-    margin: 0 0 0 713px !important;
+    margin: -133px 0 0 713px !important;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#nav_bonus{
+    display: inline-block;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 50px;
+    height: 42px;
+    color: transparent;
+    margin: -133px 0 0 713px !important;
+}
+#nav_bonus a {
+    color: transparent;
+    display: block;
+    width: 50px;
+    margin-top: 0;
+    padding-top: 45px;
+    font-weight: 700 !important;
+    font-size: 10px;
+    text-align: center;
+    background: url('https://ptpimg.me/o6nxj7.png');
+    background-position: 0 3px;
+    background-size: 50px auto !important;
+    transition: color 0.2s;
+}
+#nav_bonus a:hover {
+    color: #fff;
+    background: url('https://ptpimg.me/o6nxj7.png') !important;
+    background-position: 0 87px !important;
+    background-size: 50px auto !important;
+}
+#nav_bonus a:active {
+    color: #fff;
+    background: url('https://ptpimg.me/o6nxj7.png');
+    background-position: 0 45px !important;
+    background-size: 50px auto !important;
+}
 #nav_staff a {
     color: transparent;
     display: block;
@@ -411,7 +461,6 @@ ul.thin li {
     background-position: 0 49px !important;
     background-size: 50px auto !important;
 }
-
 #userinfo {
     position: relative;
     color: #182029;
