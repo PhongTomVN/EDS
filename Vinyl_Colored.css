@@ -201,7 +201,7 @@ ul.thin li {
     padding: 0 0 0 0;
 }
 #content {
-    width: 900px;
+    width: 950px;
     margin: 0 auto 0 auto;
     overflow: hidden;
 }
@@ -211,7 +211,7 @@ ul.thin li {
     text-align: center;
     padding: 1em 0;
     color: rgba(255, 255, 255, 0.6);
-    font-size: 10px;
+    font-size: 15px;
 }
 #disclaimer_container {
     font-size: 9px;
@@ -1014,7 +1014,7 @@ td, th {
     background: none;
 }
 .head, #reply_box h3, #inbox h3, #discog_table>.box.center, .colhead, .colhead_dark {
-    padding: 12px;
+    padding: 10px;
     background: linear-gradient(rgba(0, 0, 0, 0.4),  rgba(0, 0, 0, 0.48));
     color: #fff !important;
     text-transform: uppercase;
