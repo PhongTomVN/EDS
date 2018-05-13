@@ -241,7 +241,7 @@ ul.thin li {
     width: auto;
     height: 120px;
     background: url('https://efectodoppler.pw/static/styles/layer_cake/images/logo.png') no-repeat top left;
-    background-size: auto 120px;
+    background-size: auto 80px;
     display: block;
     margin-left: 0;
 }
@@ -380,7 +380,7 @@ ul.thin li {
     height: 42px;
     color: transparent;
  
-    margin: -133px 0 0 713px !important;
+    margin: -266px 0 0 713px !important;
 }
 
 #nav_staff a {
@@ -513,9 +513,9 @@ ul.thin li {
 }
 #userinfo_stats {
     color: #fff;
-    font-weight: 800;
+    font-weight: 400;
     text-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-    line-height: 58px;
+    line-height: 100px;
     vertical-align: middle;
     float: right;
     display: inline-block;
