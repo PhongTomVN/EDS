@@ -18,8 +18,8 @@ body {
     background-position: center center;
     background-color: #212121;
     font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    font-weight: 400;
+    font-size: 13px;
+    font-weight: 450;
     color: #fff;
 }
 .forum_post pre {
@@ -196,7 +196,7 @@ ul.thin li {
     padding: 0 0 0 0;
 }
 #header {
-    width: 900px;
+    width: 950px;
     margin: 0 auto 0 auto;
     padding: 0 0 0 0;
 }
@@ -219,17 +219,17 @@ ul.thin li {
 }
 #logo {
     width: auto;
-    height: 100px;
+    height: 105px;
     z-index: 2;
-    margin-top: 15px;
+    margin-top: 10px;
     margin-bottom: 30px
 }
 #logo a {
     border: none;
     width: auto;
-    height: 100px;
+    height: 105px;
     background: url('https://efectodoppler.pw/static/styles/layer_cake/images/logo.png') no-repeat top left;
-    background-size: auto 100px;
+    background-size: auto 105px;
     display: block;
     margin-left: 0;
 }
@@ -286,31 +286,31 @@ ul.thin li {
 }
 #menu li:nth-child(5) a {
     background: #FE7624;
-    width: 92px;
+    width: 100px;
     border: solid rgba(0, 0, 0, 0.1);
     border-width: 1px 0;
 }
 #menu li:nth-child(6) a {
     background: #FD6A2E;
-    width: 66px;
+    width: 75px;
     border: solid rgba(0, 0, 0, 0.1);
     border-width: 1px 0;
 }
 #menu li:nth-child(7) a {
     background: #FD5E38;
-    width: 88px;
+    width: 100px;
     border: solid rgba(0, 0, 0, 0.1);
     border-width: 1px 0;
 }
 #menu li:nth-child(8) a {
     background: #FD5243;
-    width: 88px;
+    width: 100px;
     border: solid rgba(0, 0, 0, 0.08);
     border-width: 1px 0;
 }
 #menu li:nth-child(9) a {
     background: #FC464D;
-    width: 88px;
+    width: 100px;
     border: solid rgba(0, 0, 0, 0.08);
     border-width: 1px 0;
 }
@@ -358,16 +358,6 @@ ul.thin li {
     color: #fff !important;
 }
 
-
-
-
-
-
-
-
-
-
-
 #nav_staff {
     position: absolute;
     display: inline-block;
@@ -380,73 +370,20 @@ ul.thin li {
  
     margin: -133px 0 0 713px !important;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#nav_bonus{
-    display: inline-block;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 50px;
-    height: 42px;
-    color: transparent;
-    margin: -133px 0 0 713px !important;
-}
-#nav_bonus a {
-    color: transparent;
-    display: block;
-    width: 50px;
-    margin-top: 0;
-    padding-top: 45px;
-    font-weight: 700 !important;
-    font-size: 10px;
-    text-align: center;
-    background: url('https://ptpimg.me/o6nxj7.png');
-    background-position: 0 3px;
-    background-size: 50px auto !important;
-    transition: color 0.2s;
-}
-#nav_bonus a:hover {
-    color: #fff;
-    background: url('https://ptpimg.me/o6nxj7.png') !important;
-    background-position: 0 87px !important;
-    background-size: 50px auto !important;
-}
-#nav_bonus a:active {
-    color: #fff;
-    background: url('https://ptpimg.me/o6nxj7.png');
-    background-position: 0 45px !important;
-    background-size: 50px auto !important;
-}
 #nav_staff a {
     color: transparent;
     display: block;
     position:absolute;
-    right:-20px;
+    right: 50px;
     width: 50px;
     margin-top: 0;
-    padding-top: 35px;https://apollo.rip/staff.php
-    font-weight: 700 !important;
-    font-size: 10px;
+    padding-top: 40px
+    font-weight: 600 !important;
+    font-size: 12px;
     text-align: center;
     background: url('./images/menu/staff-sprite-dark.png');
-    background-position: 0 8px;
-    background-size: 50px auto !important;
+    background-position: center;
+    background-size: 70px auto !important;
     transition: color 0.2s;
 }
 #nav_staff a:hover {
