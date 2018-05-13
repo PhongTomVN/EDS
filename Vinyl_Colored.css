@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Cormorant+Upright:700);
+@import url(https://fonts.googleapis.com/css?family=Vesper+Libre:900);
 
 * {
     padding: 0;
@@ -17,8 +17,8 @@ body {
     background-attachment: fixed;
     background-position: center center;
     background-color: #212121;
-    font-family: 'Cormorant Upright';
-    font-size: 14px;
+    font-family: 'Vesper Libre';
+    font-size: 13px;
     font-weight: 450;
     color: #fff;
 }
@@ -34,7 +34,7 @@ h1, h2, h3, h4 {
     font-weight: 400;
 }
 h2 {
-    font-size: 14px !important;
+    font-size: 20px !important;
     text-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 h2 a {
@@ -85,8 +85,8 @@ input {
 }
 textarea {
     padding: 2px 3px;
-    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-family: 'Vesper Libre', Helvetica, Arial, sans-serif;
+    font-size: 13px;
     background: rgba(0, 0, 0, 0.32);
     border: 1px solid rgba(255, 255, 255, 0.08);
     color: #fff;
@@ -211,10 +211,10 @@ ul.thin li {
     text-align: center;
     padding: 1em 0;
     color: rgba(255, 255, 255, 0.6);
-    font-size: 16px;
+    font-size: 13px;
 }
 #disclaimer_container {
-    font-size: 14px;
+    font-size: 13px;
     color: rgba(255, 255, 255, 0.6);
 }
 #logo {
@@ -379,7 +379,7 @@ ul.thin li {
     margin-top: 0;
     padding-top: 40px
     font-weight: 600 !important;
-    font-size: 14px;
+    font-size: 13px;
     text-align: center;
     background: url('./images/menu/staff-sprite-dark.png');
     background-position: center;
@@ -434,7 +434,7 @@ ul.thin li {
     margin-top: 0;
     padding-top: 48px;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 13px;
     text-align: center;
     transition: color 0.2s;
 }
@@ -707,9 +707,9 @@ ul.thin li {
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 1px;
     color: #fff;
-    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+    font-family: 'Vesper Libre', Helvetica, Arial, sans-serif;
     font-weight: 300;
-    font-size: 14px !important;
+    font-size: 13px !important;
 }
 ::-webkit-input-placeholder {
     color: rgba(255, 255, 255, 0.5);
@@ -750,7 +750,7 @@ ul.thin li {
     margin: 0;
 }
 .autocomplete-suggestions {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 400 !important;
     width: initial !important;
     max-width: 300px !important;
@@ -907,14 +907,14 @@ p.min_padding {
     margin-bottom: 10px;
 }
 .box {
-    font-size: 14px;
+    font-size: 13px;
     background: none;
     background-color: rgba(0, 0, 0, 0.2);
     margin-bottom: 2px;
     word-wrap: break-word;
 }
 .box2 {
-    font-size: 14px;
+    font-size: 13px;
     background: none;
     background-color: rgba(0, 0, 0, 0.2);
     margin-bottom: 2px;
@@ -941,7 +941,7 @@ p.min_padding {
     margin-bottom: 2px;
 }
 .main_column .box .body {
-    font-size: 14px;
+    font-size: 13px;
 }
 .main_column #recommended .head a[href='#']
 {
@@ -1021,7 +1021,7 @@ td, th {
     border: 1px rgba(0, 0, 0, 0.1);
     border-radius: 1px;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 400 !important;
 }
 .filelist_path {
@@ -1050,7 +1050,7 @@ td.colhead, .colhead td, td.colhead_dark, .colhead_dark td, .colhead th {
     padding: 0 8px;
     vertical-align: middle;
     text-align: center;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 400 !important;
 }
 td.label {
@@ -1062,7 +1062,7 @@ table.slice {
     margin-top: -1px;
 }
 tr.peer_list {
-    font-size: 14px;
+    font-size: 13px;
 }
 tr.peer_list td {
     padding: 2px 0 2px 2px;
@@ -1090,7 +1090,7 @@ tr.peer_list td {
 }
 ul.stats li {
     padding: 3px 0;
-    font-size: 14px;
+    font-size: 13px;
     margin: 0 15px;
 }
 ul.poll li {
@@ -1324,7 +1324,7 @@ blockquote, code {
 }
 code {
     font-family: 'DejaVu Sans Mono', monospace;
-    font-size: 14px;
+    font-size: 13px;
     margin: 0;
     padding: 3px;
     white-space: pre-wrap;
@@ -1563,7 +1563,7 @@ input[type=button], input[type=submit]
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    font-size: 14px;
+    font-size: 13px;
     height: 30px;
     background: linear-gradient(rgba(255, 255, 255, 0.95),  rgba(255, 255, 255, 0.78));
     display: inline-block;
@@ -1651,7 +1651,7 @@ select {
     color: #fff;
     -webkit-appearance: none;
     appearance: none;
-    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+    font-family: 'Vesper Libre', Helvetica, Arial, sans-serif;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -1678,7 +1678,7 @@ select {
     border-radius: 1px;
     color: #fff;
     text-decoration: none;
-    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+    font-family: 'Vesper Libre', Helvetica, Arial, sans-serif;
 }
 select:hover {
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -1704,7 +1704,7 @@ select:active, select:focus {
     background-position: right 2px top 2px, 0 0;
     outline: none;
     color: #fff;
-    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+    font-family: 'Vesper Libre', Helvetica, Arial, sans-serif;
     transition: all 0.4s;
 }
 #logchecker .thin, #logchecker h3, .log_outer, .log_outer h3 {
@@ -1923,7 +1923,7 @@ div.sidebar #event_div {
 }
 input[type='search']
 {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 400 !important;
 }
 #content>div>div.sidebar>div.box.box_search>ul>li {
@@ -2369,7 +2369,7 @@ div[style='width: 400px; height: 30px; background: rgba(64,64,64,0.8); border: d
     border: 2px dashed rgba(255, 255, 255, 0.30) !important;
     margin: 15px auto !important;
     text-transform: uppercase !important;
-    font-size: 14px !important;
+    font-size: 13px !important;
     font-weight: 600;
     color: rgba(255, 255, 255, 0.50);
     line-height: 40px;
