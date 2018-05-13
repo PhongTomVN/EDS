@@ -686,16 +686,14 @@ ul.thin li {
     margin-bottom: 2px !important;
 }
 #searchbars {
-    width: 898px;
+    width: 952px;
     height: 34px;
     padding: 8px 0;
-    border: 1px solid rgba(0, 0, 0, 0.1);
     background: rgba(0, 0, 0, 0.1);
     background-image: url('./images/light-on-dark/search.png');
     background-repeat: no-repeat;
     background-position: 13px 14px;
     background-size: auto 22px;
-    margin-bottom: 10px;
 }
 #searchbars input {
     -moz-box-sizing: border-box;
@@ -740,7 +738,7 @@ ul.thin li {
 #searchbars ul li {
     display: inline;
     float: left;
-    margin: 0 7px 0 0;
+    margin: 0 15px 0 0;
     position: relative;
     list-style: none;
 }
