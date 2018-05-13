@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+@import url(https://fonts.googleapis.com/css?family=Cormorant+Upright:700);
 
 * {
     padding: 0;
@@ -17,7 +17,7 @@ body {
     background-attachment: fixed;
     background-position: center center;
     background-color: #212121;
-    font-family: 'Shadows Into Light', Helvetica, Arial, sans-serif;
+    font-family: 'Cormorant Upright', Helvetica, Arial, sans-serif;
     font-size: 13px;
     font-weight: 450;
     color: #fff;
