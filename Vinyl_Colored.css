@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,bold);
+@import url(https://fonts.googleapis.com/css?family=Pangolin);
 
 * {
     padding: 0;
@@ -17,7 +17,7 @@ body {
     background-attachment: fixed;
     background-position: center center;
     background-color: #212121;
-    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+    font-family: 'Pangolin', Helvetica, Arial, sans-serif;
     font-size: 13px;
     font-weight: 450;
     color: #fff;
