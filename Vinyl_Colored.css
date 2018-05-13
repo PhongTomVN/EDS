@@ -20,7 +20,7 @@ html {
     width: 100%;
 }
 body {
-    background-image: url('./images/backgrounds/vinyl.jpg');
+    background-image: url('./images/backgrounds/vinyl.png');
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -240,7 +240,7 @@ ul.thin li {
     border: none;
     width: auto;
     height: 80px;
-    background: url('https://ptpimg.me/qf4hw8.png') no-repeat top left;
+    background: url('https://efectodoppler.pw/static/styles/layer_cake/images/logo.png') no-repeat top left;
     background-size: auto 80px;
     display: block;
     margin-left: 0;
