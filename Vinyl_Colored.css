@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Cookie);
+@import url(https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope);
 
 * {
     padding: 0;
@@ -17,7 +17,7 @@ body {
     background-attachment: fixed;
     background-position: center center;
     background-color: #212121;
-    font-family: 'Cookie';
+    font-family: 'Annie Use Your Telescope';
     font-size: 17px;
     font-weight: 450;
     color: #fff;
@@ -85,7 +85,7 @@ input {
 }
 textarea {
     padding: 2px 3px;
-    font-family: 'Cookie', Helvetica, Arial, sans-serif;
+    font-family: 'Annie Use Your Telescope', Helvetica, Arial, sans-serif;
     font-size: 17px;
     background: rgba(0, 0, 0, 0.32);
     border: 1px solid rgba(255, 255, 255, 0.08);
@@ -1323,7 +1323,7 @@ blockquote, code {
     background: rgba(255, 255, 255, 0.08);
 }
 code {
-    font-family: 'Cookie', monospace;
+    font-family: 'Annie Use Your Telescope', monospace;
     font-size: 17px;
     margin: 0;
     padding: 3px;
