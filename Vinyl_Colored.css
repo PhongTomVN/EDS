@@ -370,46 +370,7 @@ ul.thin li {
     color: #fff !important;
 }
 
-
-
-#nav_staff{
-    display: inline-block;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 50px;
-    height: 42px;
-    color: transparent;
-    margin: -133px 0 0 713px !important;
-}
-#nav_staff a {
-    color: transparent;
-    display: block;
-    width: 50px;
-    margin-top: 0;
-    padding-top: 45px;
-    font-weight: 700 !important;
-    font-size: 10px;
-    text-align: center;
-    background: url('./images/menu/staff-sprite-dark.png');
-    background-position: 0 3px;
-    background-size: 50px auto !important;
-    transition: color 0.2s;
-}
-#nav_staff a:hover {
-    color: #fff;
-    background: url('./images/menu/staff-sprite-dark.png') !important;
-    background-position: 0 87px !important;
-    background-size: 50px auto !important;
-}
-#nav_staff a:active {
-    color: #fff;
-    background: url('./images/menu/staff-sprite-dark.png');
-    background-position: 0 45px !important;
-    background-size: 50px auto !important;
-}
-
-#nav_bonus {
+#nav_staff {
     position: absolute;
     display: inline-block;
     -moz-box-sizing: border-box;
@@ -422,7 +383,7 @@ ul.thin li {
     margin: -133px 0 0 713px !important;
 }
 
-#nav_bonus a {
+#nav_staff a {
     color: transparent;
     display: block;
     position:absolute;
@@ -433,23 +394,24 @@ ul.thin li {
     font-weight: 700 !important;
     font-size: 10px;
     text-align: center;
-    background: url('https://ptpimg.me/o6nxj7.png');
+    background: url('./images/menu/staff-sprite-dark.png');
     background-position: 0 8px;
     background-size: 50px auto !important;
     transition: color 0.2s;
 }
-#nav_bonus a:hover {
+#nav_staff a:hover {
     color: #fff;
-    background: url('https://ptpimg.me/o6nxj7.png') !important;
+    background: url('./images/menu/staff-sprite-dark.png') !important;
     background-position: 0 91px !important;
     background-size: 50px auto !important;
 }
-#nav_bonus a:active {
+#nav_staff a:active {
     color: #fff;
-    background: url('https://ptpimg.me/o6nxj7.png');
+    background: url('./images/menu/staff-sprite-dark.png');
     background-position: 0 49px !important;
     background-size: 50px auto !important;
 }
+
 #userinfo {
     position: relative;
     color: #182029;
@@ -551,14 +513,14 @@ ul.thin li {
 }
 #userinfo_stats {
     color: #fff;
-    font-weight: 450;
+    font-weight: 800;
     text-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-    line-height: 65px;
+    line-height: 58px;
     vertical-align: middle;
     float: right;
     display: inline-block;
     width: auto;
-    margin-top: -50px;
+    margin-top: -68px;
     margin-right: 0;
 }
 #userinfo_stats a {
