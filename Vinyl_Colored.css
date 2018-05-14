@@ -1,3 +1,15 @@
+/********************* RedactHaze **********************
+
+Original design: apopagasm
+Original CSS: Exanurous
+This stylesheet is derived from Gazelle Postmod.
+
+Similar ports are available on other sites under different names  (Haze, Beluga, ...)
+
+High-DPI images: Phlo
+
+*******************************************************/
+
 @import url(https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope);
 
 * {
@@ -8,7 +20,7 @@ html {
     width: 100%;
 }
 body {
-    background-image: url('./images/backgrounds/vinyl.png');
+    background-image: url('./images/backgrounds/c.png');
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -17,9 +29,9 @@ body {
     background-attachment: fixed;
     background-position: center center;
     background-color: #212121;
-    font-family: 'Annie Use Your Telescope';
-    font-size: 17px;
-    font-weight: 450;
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
     color: #fff;
 }
 .forum_post pre {
@@ -34,7 +46,7 @@ h1, h2, h3, h4 {
     font-weight: 400;
 }
 h2 {
-    font-size: 30px !important;
+    font-size: 18px !important;
     text-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 h2 a {
@@ -85,8 +97,8 @@ input {
 }
 textarea {
     padding: 2px 3px;
-    font-family: 'Annie Use Your Telescope', Helvetica, Arial, sans-serif;
-    font-size: 17px;
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+    font-size: 13px;
     background: rgba(0, 0, 0, 0.32);
     border: 1px solid rgba(255, 255, 255, 0.08);
     color: #fff;
@@ -196,12 +208,12 @@ ul.thin li {
     padding: 0 0 0 0;
 }
 #header {
-    width: 950px;
+    width: 900px;
     margin: 0 auto 0 auto;
     padding: 0 0 0 0;
 }
 #content {
-    width: 950px;
+    width: 900px;
     margin: 0 auto 0 auto;
     overflow: hidden;
 }
@@ -211,15 +223,15 @@ ul.thin li {
     text-align: center;
     padding: 1em 0;
     color: rgba(255, 255, 255, 0.6);
-    font-size: 17px;
+    font-size: 10px;
 }
 #disclaimer_container {
-    font-size: 17px;
+    font-size: 9px;
     color: rgba(255, 255, 255, 0.6);
 }
 #logo {
     width: auto;
-    height: 105px;
+    height: 100px;
     z-index: 2;
     margin-top: 10px;
     margin-bottom: 30px
@@ -227,9 +239,9 @@ ul.thin li {
 #logo a {
     border: none;
     width: auto;
-    height: 105px;
+    height: 100px;
     background: url('https://efectodoppler.pw/static/styles/layer_cake/images/logo.png') no-repeat top left;
-    background-size: auto 105px;
+    background-size: auto 100px;
     display: block;
     margin-left: 0;
 }
@@ -286,31 +298,31 @@ ul.thin li {
 }
 #menu li:nth-child(5) a {
     background: #FE7624;
-    width: 100px;
+    width: 92px;
     border: solid rgba(0, 0, 0, 0.1);
     border-width: 1px 0;
 }
 #menu li:nth-child(6) a {
     background: #FD6A2E;
-    width: 75px;
+    width: 66px;
     border: solid rgba(0, 0, 0, 0.1);
     border-width: 1px 0;
 }
 #menu li:nth-child(7) a {
     background: #FD5E38;
-    width: 100px;
+    width: 88px;
     border: solid rgba(0, 0, 0, 0.1);
     border-width: 1px 0;
 }
 #menu li:nth-child(8) a {
     background: #FD5243;
-    width: 100px;
+    width: 88px;
     border: solid rgba(0, 0, 0, 0.08);
     border-width: 1px 0;
 }
 #menu li:nth-child(9) a {
     background: #FC464D;
-    width: 100px;
+    width: 88px;
     border: solid rgba(0, 0, 0, 0.08);
     border-width: 1px 0;
 }
@@ -357,33 +369,29 @@ ul.thin li {
     background-size: 50px auto !important;
     color: #fff !important;
 }
-
 #nav_staff {
     position: absolute;
     display: inline-block;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    width: 0px;
+    width: 50px;
     height: 42px;
     color: transparent;
- 
     margin: -133px 0 0 713px !important;
 }
 #nav_staff a {
     color: transparent;
     display: block;
-    position:absolute;
-    right: 50px;
     width: 50px;
     margin-top: 0;
-    padding-top: 40px
-    font-weight: 600 !important;
-    font-size: 17px;
+    padding-top: 35px;
+    font-weight: 700 !important;
+    font-size: 10px;
     text-align: center;
     background: url('./images/menu/staff-sprite-dark.png');
-    background-position: center;
-    background-size: 70px auto !important;
+    background-position: 0 8px;
+    background-size: 50px auto !important;
     transition: color 0.2s;
 }
 #nav_staff a:hover {
@@ -395,7 +403,7 @@ ul.thin li {
 #nav_staff a:active {
     color: #fff;
     background: url('./images/menu/staff-sprite-dark.png');
-    background-position: 0 49px !important;
+    background-position: 0 48px !important;
     background-size: 50px auto !important;
 }
 #userinfo {
@@ -413,7 +421,6 @@ ul.thin li {
     margin: -131px 0 0 765px;
     float: right;
     white-space: nowrap;
-    right:-30px;
 }
 #userinfo_major li a {
     display: inline-block;
@@ -434,7 +441,7 @@ ul.thin li {
     margin-top: 0;
     padding-top: 48px;
     font-weight: 700;
-    font-size: 17px;
+    font-size: 10px;
     text-align: center;
     transition: color 0.2s;
 }
@@ -469,7 +476,7 @@ ul.thin li {
 #userinfo_major #nav_invite a:active {
     color: #fff;
     background: url('./images/menu/invite-sprite-dark.png');
-    background-position: 0 49px;
+    background-position: 0 48px;
     background-size: 50px auto !important;
 }
 #userinfo_major #nav_donate {
@@ -489,10 +496,11 @@ ul.thin li {
     background-position: 0 48px;
     background-size: 50px auto !important;
 }
+
 #extra2 {
 	position: fixed;
 	background-color: rgba(53, 54, 54, 0.97);
-	width: 1050px;
+	width: 984px;
   	top:0px; bottom:0; left:0; right:0;
 	margin:0px auto;
 	z-index:-2;
@@ -575,7 +583,7 @@ ul.thin li {
     padding: 0 12px;
     background: #fff;
     color: #000;
-    margin: -4px -2px 0 0 !important;
+    margin: -4px 0 0 0 !important;
     visibility: hidden;
 }
 #userinfo_username li:nth-child(3) a {
@@ -616,12 +624,13 @@ ul.thin li {
     position: absolute;
     display: block;
     list-style: none;
-    right: -2px;
+    right: 0px;
     top: 0px;
     z-index: 99999;
-    width: 50px !important;
-    height: 50px;
+    width: 48px !important;
+    height: 49px;
     line-height: 50px !important;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
     background: url('./images/caret-light.png') center center no-repeat #FC2E62;
     background-size:  30px auto;
 }
@@ -635,7 +644,7 @@ ul.thin li {
     transition: background 0.4s;
 }
 #userinfo_minor li {
-    margin: 0 0 0 -158px !important;
+    margin: 0 0 0 -160px !important;
     display: block !important;
     visibility: hidden;
     height: 0;
@@ -686,14 +695,16 @@ ul.thin li {
     margin-bottom: 2px !important;
 }
 #searchbars {
-    width: 952px;
+    width: 898px;
     height: 34px;
-    padding: 8px 0 10px 0;
+    padding: 8px 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
     background: rgba(0, 0, 0, 0.1);
     background-image: url('./images/light-on-dark/search.png');
     background-repeat: no-repeat;
     background-position: 13px 14px;
     background-size: auto 22px;
+    margin-bottom: 10px;
 }
 #searchbars input {
     -moz-box-sizing: border-box;
@@ -707,9 +718,9 @@ ul.thin li {
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 1px;
     color: #fff;
-    font-family: 'Cookie', Helvetica, Arial, sans-serif;
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
     font-weight: 300;
-    font-size: 13px !important;
+    font-size: 12px !important;
 }
 ::-webkit-input-placeholder {
     color: rgba(255, 255, 255, 0.5);
@@ -738,7 +749,7 @@ ul.thin li {
 #searchbars ul li {
     display: inline;
     float: left;
-    margin: 0 12px 0 0;
+    margin: 0 7px 0 0;
     position: relative;
     list-style: none;
 }
@@ -750,7 +761,7 @@ ul.thin li {
     margin: 0;
 }
 .autocomplete-suggestions {
-    font-size: 17px;
+    font-size: 12px;
     font-weight: 400 !important;
     width: initial !important;
     max-width: 300px !important;
@@ -907,14 +918,14 @@ p.min_padding {
     margin-bottom: 10px;
 }
 .box {
-    font-size: 17px;
+    font-size: 13px;
     background: none;
     background-color: rgba(0, 0, 0, 0.2);
     margin-bottom: 2px;
     word-wrap: break-word;
 }
 .box2 {
-    font-size: 17px;
+    font-size: 13px;
     background: none;
     background-color: rgba(0, 0, 0, 0.2);
     margin-bottom: 2px;
@@ -941,7 +952,7 @@ p.min_padding {
     margin-bottom: 2px;
 }
 .main_column .box .body {
-    font-size: 17px;
+    font-size: 13px;
 }
 .main_column #recommended .head a[href='#']
 {
@@ -1014,14 +1025,14 @@ td, th {
     background: none;
 }
 .head, #reply_box h3, #inbox h3, #discog_table>.box.center, .colhead, .colhead_dark {
-    padding: 10px;
+    padding: 12px;
     background: linear-gradient(rgba(0, 0, 0, 0.4),  rgba(0, 0, 0, 0.48));
     color: #fff !important;
     text-transform: uppercase;
     border: 1px rgba(0, 0, 0, 0.1);
     border-radius: 1px;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
-    font-size: 17px;
+    font-size: 12px;
     font-weight: 400 !important;
 }
 .filelist_path {
@@ -1050,7 +1061,7 @@ td.colhead, .colhead td, td.colhead_dark, .colhead_dark td, .colhead th {
     padding: 0 8px;
     vertical-align: middle;
     text-align: center;
-    font-size: 17px;
+    font-size: 12px;
     font-weight: 400 !important;
 }
 td.label {
@@ -1062,7 +1073,7 @@ table.slice {
     margin-top: -1px;
 }
 tr.peer_list {
-    font-size: 17px;
+    font-size: 12px;
 }
 tr.peer_list td {
     padding: 2px 0 2px 2px;
@@ -1090,7 +1101,7 @@ tr.peer_list td {
 }
 ul.stats li {
     padding: 3px 0;
-    font-size: 17px;
+    font-size: 12px;
     margin: 0 15px;
 }
 ul.poll li {
@@ -1323,8 +1334,8 @@ blockquote, code {
     background: rgba(255, 255, 255, 0.08);
 }
 code {
-    font-family: 'Annie Use Your Telescope', monospace;
-    font-size: 17px;
+    font-family: 'DejaVu Sans Mono', monospace;
+    font-size: 12px;
     margin: 0;
     padding: 3px;
     white-space: pre-wrap;
@@ -1563,7 +1574,7 @@ input[type=button], input[type=submit]
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    font-size: 17px;
+    font-size: 10px;
     height: 30px;
     background: linear-gradient(rgba(255, 255, 255, 0.95),  rgba(255, 255, 255, 0.78));
     display: inline-block;
@@ -1651,12 +1662,12 @@ select {
     color: #fff;
     -webkit-appearance: none;
     appearance: none;
-    font-family: 'Cookie', Helvetica, Arial, sans-serif;
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     margin: 2px;
-    height: 30px;
+    height: 26px;
     padding: 5px 41px 5px 5px;
     text-decoration: none;
 }
@@ -1678,7 +1689,7 @@ select {
     border-radius: 1px;
     color: #fff;
     text-decoration: none;
-    font-family: 'Cookie', Helvetica, Arial, sans-serif;
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 }
 select:hover {
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -1704,7 +1715,7 @@ select:active, select:focus {
     background-position: right 2px top 2px, 0 0;
     outline: none;
     color: #fff;
-    font-family: 'Cookie', Helvetica, Arial, sans-serif;
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
     transition: all 0.4s;
 }
 #logchecker .thin, #logchecker h3, .log_outer, .log_outer h3 {
@@ -1923,7 +1934,7 @@ div.sidebar #event_div {
 }
 input[type='search']
 {
-    font-size: 17px;
+    font-size: 12px;
     font-weight: 400 !important;
 }
 #content>div>div.sidebar>div.box.box_search>ul>li {
@@ -1994,6 +2005,7 @@ img[alt='Snatches']
     height: 15px;
     width: 0;
     padding-right: 15px;
+    box-sizing: border-box;
 }
 img[alt='Seeders']
 {
@@ -2002,6 +2014,7 @@ img[alt='Seeders']
     height: 15px;
     padding-right: 11px;
     width: 0;
+    box-sizing: border-box;
 }
 img[alt='Leechers']
 {
@@ -2010,14 +2023,17 @@ img[alt='Leechers']
     height: 15px;
     padding-right: 11px;
     width: 0;
+    box-sizing: border-box;
 }
 img[src='static/common/symbols/disabled.png'] {
-    content: url('./images/user-icons/disabled.png');
-    height: 16px;
-    width: 16px;
-    margin-top: -2px;
-    margin-left: 2px;
-    margin-bottom: -2px;
+	background: url('./images/user-icons/disabled.png') no-repeat scroll 0 0 transparent;
+	background-size: 100%;
+	height: 15px !important;
+	padding-right: 15px !important;
+	width: 0 !important;
+	box-sizing: border-box;
+	margin-bottom: -2px;
+	margin-left: 2px;
 }
 img[src='static/common/symbols/warned.png'] {
     content: url('./images/user-icons/warned.png');
@@ -2026,6 +2042,7 @@ img[src='static/common/symbols/warned.png'] {
     margin-top: -2px;
     margin-left: 2px;
     margin-bottom: -2px;
+    box-sizing: border-box;
 }
 img[src='static/common/symbols/contest.png']
 {
@@ -2036,6 +2053,7 @@ img[src='static/common/symbols/contest.png']
     margin-bottom: -2px;
     padding-right: 15px !important;
     width: 0 !important;
+    box-sizing: border-box;
 }
 img[src='static/common/avatars/default.png']
 {
@@ -2048,6 +2066,7 @@ img[src*='/donor.png']
     height: 13px !important;
     padding-right: 15px !important;
     width: 0 !important;
+    box-sizing: border-box;
 }
 img[src*='/donor_2.png']
 {
@@ -2056,6 +2075,7 @@ img[src*='/donor_2.png']
     height: 13px !important;
     padding-right: 15px !important;
     width: 0 !important;
+    box-sizing: border-box;
 }
 img[src*='/donor_3.png']
 {
@@ -2064,6 +2084,7 @@ img[src*='/donor_3.png']
     height: 13px !important;
     padding-right: 15px !important;
     width: 0 !important;
+    box-sizing: border-box;
 }
 img[src*='/donor_4.png']
 {
@@ -2072,6 +2093,7 @@ img[src*='/donor_4.png']
     height: 13px !important;
     padding-right: 15px !important;
     width: 0 !important;
+    box-sizing: border-box;
 }
 img[src*='/donor_5.png']
 {
@@ -2080,6 +2102,7 @@ img[src*='/donor_5.png']
     height: 13px !important;
     padding-right: 15px !important;
     width: 0 !important;
+    box-sizing: border-box;
 }
 img[src*='/donor_6.png']
 {
@@ -2088,6 +2111,7 @@ img[src*='/donor_6.png']
     height: 13px !important;
     padding-right: 15px !important;
     width: 0 !important;
+    box-sizing: border-box;
 }
 #log span[style='color: blue;']
 {
@@ -2369,7 +2393,7 @@ div[style='width: 400px; height: 30px; background: rgba(64,64,64,0.8); border: d
     border: 2px dashed rgba(255, 255, 255, 0.30) !important;
     margin: 15px auto !important;
     text-transform: uppercase !important;
-    font-size: 17px !important;
+    font-size: 15px !important;
     font-weight: 600;
     color: rgba(255, 255, 255, 0.50);
     line-height: 40px;
