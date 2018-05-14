@@ -10,7 +10,7 @@ High-DPI images: Phlo
 
 *******************************************************/
 
-@import url(https://fonts.googleapis.com/css?family=Sacramento);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,bold);
 
 * {
     padding: 0;
@@ -29,7 +29,7 @@ body {
     background-attachment: fixed;
     background-position: center center;
     background-color: #212121;
-    font-family: 'Sacramento', Helvetica, Arial, sans-serif;
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
     font-size: 12px;
     font-weight: 400;
     color: #fff;
