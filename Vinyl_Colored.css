@@ -9,8 +9,7 @@ Similar ports are available on other sites under different names  (Haze, Beluga,
 High-DPI images: Phlo
 
 *******************************************************/
-
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,bold);
+@import url(https://fonts.googleapis.com/css?family=Dokdo|Hi+Melody|Ruthie|Shadows+Into+Light|Source+Sans+Pro:300,400,600,bold);
 
 * {
     padding: 0;
@@ -20,7 +19,7 @@ html {
     width: 100%;
 }
 body {
-    background-image: url('./images/backgrounds/c.png');
+    background-image: url('./images/backgrounds/d.png');
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -233,8 +232,8 @@ ul.thin li {
     width: auto;
     height: 100px;
     z-index: 2;
-    margin-top: 10px;
-    margin-bottom: 30px
+    margin-top: 0;
+    margin-bottom: 25px
 }
 #logo a {
     border: none;
@@ -499,7 +498,7 @@ ul.thin li {
 
 #extra2 {
 	position: fixed;
-	background-color: rgba(53, 54, 54, 0.97);
+	background-color: rgba(53, 54, 54, 0.9);
 	width: 984px;
   	top:0px; bottom:0; left:0; right:0;
 	margin:0px auto;
@@ -508,8 +507,8 @@ ul.thin li {
 #userinfo_stats {
     color: #fff;
     font-weight: 400;
-    text-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-    line-height: 58px;
+    text-shadow: 0 0 15px rgba(0, 0, 255, 1);
+    line-height: 68px;
     vertical-align: middle;
     float: right;
     display: inline-block;
